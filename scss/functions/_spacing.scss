@@ -1,0 +1,21 @@
+$factors: 1, 2, 3, 4;
+
+@function contains($list,$var) {
+    $_out: false;
+    @each $item in $list { @if $item == $var { $_out: true; } }
+    @return $_out;
+}
+
+@function convertToUnit($value) {
+    @return $value + $base-unit;
+}
+
+@function spacing($value, $factor) {
+    $isSupport: contains($factors, $factor);
+
+    @if $isSupport {
+        @return convertToUnit($value * $factor);
+    }
+
+    @return convertToUnit($value);
+}

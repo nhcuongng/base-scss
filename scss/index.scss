@@ -1,0 +1,12 @@
+// base scss
+@import 'reset';
+@import 'base';
+
+// variables
+@import 'variables';
+
+// mixin and function
+@import './functions';
+
+// test
+@import 'test'

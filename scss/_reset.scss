@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// make html and body full height by screen
+// set base font-size to 16px;
+html, body {
+	height: 100%;
+}
+
+// override the default font
+body {
+	font-family: Poppins;
+}
+
+// reset margin and padding to zero
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+// ol and ul list reset list type
+ul, ol {
+  list-style-type: none;
+}
+
+// reset table border
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+// reset a underline in a link
+a, a:visited {
+  text-decoration: none;
+}
+
+// Removes the border around linked images (i.e. <a><img /></a>)
+img,
+a img,
+:link img,
+:visited img {
+	border:0
+}
+
+// prevent a image render original width
+img {
+  max-width: 100%;
+	height: auto;
+}
+
+/* avoid browser default inconsistent heading font-sizes */
+h1,h2,h3,h4,h5,h6,pre,code,kbd {
+	font-size: 1em;
+}
