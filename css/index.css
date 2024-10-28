@@ -63,7 +63,12 @@ h1, h2, h3, h4, h5, h6, pre, code, kbd {
   left: -999em;
 }
 
-.csac {
-  padding: 16px;
+.dewde33 {
+  padding: 8px;
   margin: 4px;
+}
+@media (min-width: 0) {
+  .dewde33 {
+    color: red;
+  }
 }

@@ -1,4 +1,8 @@
-.csac {
-    padding: spacing($base-padding, 4);
+.dewde33 {
+    padding: spacing($base-padding, 2);
     margin: spacing($base-padding, 1);
+
+    @include xs {
+        color: red;
+    }
 }
